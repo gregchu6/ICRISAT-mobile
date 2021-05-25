@@ -128,7 +128,7 @@ class _InfoDataCardState extends State<InfoDataCard> {
                       ),
                       FormQuestion(
                         questionText: "Current Location Coordinates",
-                        hint: "${interviewData.location.locationName}: (${interviewData.location.latitude},${interviewData.location.longitude})",
+                        hint: "${interviewData.location.locationName}: (${interviewData.location.latitude},${interviewData.location.longitude})", //where GPS coordinates are
                         initialText: "${interviewData.location.locationName}: (${interviewData.location.latitude},${interviewData.location.longitude})",
                         enabled: false,
                       )
